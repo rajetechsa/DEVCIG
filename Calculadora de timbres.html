@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Calculadora de Timbres</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logocig.png" rel="icon">
+  <link href="assets/img/logocig.png" rel="logocig">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+
+  <script type="text/javascript">
+    $(function(){
+      $("#header").load("Header.html"); 
+      $("#footer").load("Footer.html"); 
+    });
+  </script> 
+</head>
+
+<body>
+  
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center allpage header-cig"></header>
+  <!-- End Header -->
+  
+  <!-- ======= Wave Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="ocean">
+      <div class="wave"></div>
+      <div class="wave"></div>
+    </div>
+  </section><!-- End Wave -->
+
+  <main id="main">
+    
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+          <h2></h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Cálculadora de Timbres</a></li>            
+          </ol>
+        </div>
+      </div>
+    </section><!-- End Breadcrumbs -->
+    
+    <!-- ======= Calculo Timbres ======= -->
+    <section class="general-cig">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-title" data-aos="fade-left">
+              <h2 class="text-left">ARTICULO 3. El impuesto del Tímbre de Ingeniería se fíja así:</h2>
+            </div>
+          </div>
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10 text-justify" data-aos="fade-left">
+            <p>El cinco por millar (5o/oo) sobre el monto de los honorarios que perciba el ingeniero en proyectos, peritajes, avalúos, 
+              contratos de servicio de asesoría, consultoría, construcción, supervisión de obra y en general, todo trabajo que requiera la participación o 
+              contribución de un miembro del Colegio de Ingenieros de Guatemala;
+            </p>
+            <p class="text-center"><strong id="cal-1"></strong></p>
+            <p>Las empresas individuales o jurídicas a que se refiere el artículo 1o. de esta ley, cuando realicen obras que requiera licencia municipal u
+              otra licencia, pagarán el uno por millar (1o/oo) sobre el valor de los trabajos de construcción y/o instalación, que conste en dicha licencia;
+            </p>
+            <p class="text-center"><strong id="cal-2"></strong></p>
+            <p>Las empresas individuales o jurídicas que presten servicios de consultoría, asesoría y supervisión o
+              realicen obras públicas por contrato con el Estado o con sus instituciones, o que construyan obras pública o privadas, que por 
+              cualquier circunstancia estén exoneradas del pago de licencia municipal u otro tipo de licencia, ésta no sea necesaria, cubrirán el uno por millar 
+              (1o/oo) sobre el monto total de contrato correspondiente. En los casos de los incisos a), b) y c) anteriores, el Timbre deberá estar adherido a los documentos,
+              planos o facturas, según el caso y no podrá ser inferior al valor de veinticinco centavos de quetzal   (Q. 0.25).
+            </p>
+            <p class="text-center"><strong id="cal-3"></strong></p>
+            <p>El dos por millar (2o/oo) sobre el monto del sueldo mensual percibido por los profesionales miembros del Colegio de Ingenieros de Guatemala
+              que ocupen cargos en entidades públicas o privadas o que trabajen por cuenta propia. En ningún caso bajará de un quetzal (Q. 1.00) mensual el
+              valor de este impuesto. El timbre deberá adherirse al recibo o documento de pago.
+            </p>
+            <p class="text-center"><strong id="cal-4"></strong></p>
+          </div>
+          <div class="col-lg-1"></div>
+          <div class="col-lg-12 text-center" data-aos="fade-left" data-aos-delay="200"><br>
+            <h4>Ingrese el valor:  
+              <input name="valorcalculo" id="valorcalculo" placeholder="Valor Q. 0.00">
+              <button class="btn btn-cig" onclick="calcularTimbres();"><i class="fa fa-calculator"></i> Calcular</button>
+            </h4>            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section></section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer"></footer>
+  <!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    function calcularTimbres(){
+      var valor = document.getElementById("valorcalculo").value;
+
+      if(valor == null || valor == undefined || valor == ''){
+        alert('Debe insertar un valor!');
+        return false;
+      }
+
+      var cal_1 = (valor*0.005).toFixed(2);
+      document.getElementById("cal-1").innerHTML = "Resultado: " + cal_1;
+      var cal_2 = (valor*0.001).toFixed(2);
+      document.getElementById("cal-2").innerHTML = "Resultado: " + cal_2;
+      var cal_3 = (valor*0.001).toFixed(2);
+      document.getElementById("cal-3").innerHTML = "Resultado: " + cal_3;
+      var cal_4 = (valor*0.002).toFixed(2);
+      document.getElementById("cal-4").innerHTML = "Resultado: " + cal_4;
+
+      return true;      
+    }
+  </script>
+
+</body>
+
+</html>
