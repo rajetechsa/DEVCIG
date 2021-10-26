@@ -6,7 +6,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-html{
+html {
   min-height: 100%;
   position: relative;
 }
@@ -97,7 +97,7 @@ h6 {
 #header .logo {
   overflow: hidden;
   padding: 16px 30px 12px 10px;
- 
+
   margin-right: 15px;
   margin-top: 2px;
   width: 110px;
@@ -1110,7 +1110,7 @@ section {
 
 .notices-cig-esquelas {
   background: white;
-  color: gray;  
+  color: gray;
 }
 
 .notices-cig-servicios {
@@ -2498,7 +2498,7 @@ section {
 }
 
 .wave {
-  background: url(/assets/img/banner/wave-cig.svg) repeat-x;
+  background: url(../../assets/img/banner/wave-cig.svg) repeat-x;
   position: absolute;
   top: -100px;
   width: 6400px;
@@ -2788,7 +2788,7 @@ section {
 
 /* Card de las universidades*/
 .container-universidades {
-  background-color:white !important;
+  background-color: white !important;
   border-radius: 25px;
   box-shadow: 0px 0 25px 0 #0f54b052;
   text-align: center;
@@ -2809,7 +2809,7 @@ section {
   transform: scale(1.1);
 }
 
-.container-universidades img{
+.container-universidades img {
   width: 150px;
   height: 150px;
 }
@@ -3288,8 +3288,8 @@ section {
 
 /* Para leyes y formularios. */
 .contenedor-leyes {
-   background: #ddd;
-  font-family:monospace;
+  background: #ddd;
+  font-family: monospace;
   width: 90%;
   background: white;
   margin: auto;
@@ -3298,8 +3298,6 @@ section {
   grid-template-columns: 400px 200px;
   grid-auto-rows: 50px;
   margin-top: 40px;
-  
-  
 }
 
 /*Portadas Videos*/
@@ -3349,16 +3347,15 @@ section {
   transform: scale(1.1);
 }
 
-
 /* Para las esquelas del carrusel. */
 .esquelas {
- width: 500px;
- height: 500px;
+  width: 500px;
+  height: 500px;
 }
 
 /* Fondos */
 .fondoamarillo {
-  background-color:#e4b500;
+  background-color: #e4b500;
 }
 
 /* Tabla de pago en linea */
@@ -3373,22 +3370,22 @@ table {
   border-collapse: collapse;
   width: 100%;
   font-size: 20px;
-
 }
 
-th, td {
+th,
+td {
   padding: 10px;
 }
 
 thead {
-  background-color:#0f54b0;
+  background-color: #0f54b0;
   border-bottom: solid 5px #e4b500;
   color: white;
 }
 
 .titulos-para-tablas {
-  font-size:100px;
-  color:#e4b500;
+  font-size: 100px;
+  color: #e4b500;
   text-align: center;
 }
 
@@ -3402,7 +3399,7 @@ thead {
   max-width: 100%;
   width: auto;
   height: auto;
-  padding: 25px 0; 
+  padding: 25px 0;
 }
 
 /* Para la imagen de Junta Directiva */
@@ -3413,35 +3410,32 @@ thead {
 }
 
 /*Para la imagen de fonde de las juntas directivas */
-.imagen-cig{
+.imagen-cig {
   width: 200px;
   height: 200px;
 }
 
-
 /* Para centrar  información de administración y de leyes  */
 
-.contenedor-administracion{
+.contenedor-administracion {
   width: 100%;
   display: grid;
-
-  
 }
 
-.table-cig{
+.table-cig {
   width: 100%;
 }
 
 /*Para Justificar los parrafos */
 
-.contenedor-parrafos{
+.contenedor-parrafos {
   text-align: justify;
 }
 
 /* Para fondo azul de galería */
 
-.fondoazul{
-  background-color:#0f54b0 ;
+.fondoazul {
+  background-color: #0f54b0;
 }
 
 /*--------------------------------------------------------------
@@ -3451,10 +3445,10 @@ thead {
   background: white;
 }
 
-.general-cig .section-title{
+.general-cig .section-title {
   color: #0f54b0;
 }
 
-.notices-relevantes-cig-img{
+.notices-relevantes-cig-img {
   height: 200px;
 }
