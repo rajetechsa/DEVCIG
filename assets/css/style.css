@@ -3452,3 +3452,23 @@ thead {
 .notices-relevantes-cig-img {
   height: 200px;
 }
+
+/* PARA PONER EL TEXTO EN COLOR AZUL  */
+.color-text {
+  color: #0016b0;
+}
+
+/* PARA JUSTIFICAR PARRAFOS */
+.justificar-parrafo {
+  text-align: justify;
+}
+
+/* PARA ORDENAR LAS CANTIDADES */
+.cantidades {
+  margin-left: 200px;
+  font-weight: bold;
+}
+
+.negrita-pequeña {
+  font-weight: bold;
+}
