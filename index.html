@@ -33,7 +33,8 @@
   <script type="text/javascript">
     $(function(){
       $("#modalsindex").load("ModalsIndex.html"); 
-    });
+      $("#modalsindexceduca").load("ModalsIndexCeduca.html"); 
+    });    
   </script>  
 
 </head>
@@ -64,7 +65,7 @@
                       <li><a href="Junta Directiva.html">Junta directiva</a></li>
                       <li><a href="Junta Directiva Timbres.html">Junta de Administración Timbre de Ingeniería</a></li>
                       <li><a href="Junta Directiva Auxlio Postumo.html">Junta de Administración Auxilio Póstumo</a></li>
-                      <li><a href="Junta Directiva CEDUCA.html">Junta directiva CEDUCA</a></li>
+                      <li><a href="Consejo de CEDUCA.html">Consejo de CEDUCA</a></li>
                       <li><a href="Tribunal de Honor.html">Tribunal de Honor</a></li>
                       <li><a href="Tribunal Electoral.html">Tribunal Electoral</a></li>
                       <li><a href="Comisiones.html">Comisiones de trabajo</a></li>
@@ -94,7 +95,9 @@
             </li>
             <li class="drop-down"><a>CEDUCA</a>
               <ul>
-                <li><a href="Calendario de cursos.html">Calendario de cursos</a></li>                
+                <li><a href="Calendarizacion.html">Calendarización</a></li>
+                <li><a href="Historico.html">Histórico</a></li>
+                <li><a href="Información y Contacto.html">Información y Contacto</a></li>
               </ul>
             </li>
             <li class="nav-link"><a href="Comisiones.html">Comisiones</a></i>            
@@ -295,7 +298,7 @@
                 <h5><i class="bx bx-laptop"></i> Plataforma: <span class="color-facebook">Facebook</span> y <span class="color-youtube">YouTube</span></h5>                
                 <h5><i class="bx bx-money"></i> GRATUITO</h5><br/>    
                 <div class="text-center">
-                  <a href="Calendario de cursos.html" class="more-btn-blue">Ver Más <i class="fa fa-arrow-right"></i></a>
+                  <a class="more-btn-blue" data-toggle="modal" data-target="#ceducamodal_1">Ver Más <i class="fa fa-arrow-right"></i></a>
                 </div><br>           
               </div>
               <div class="notices-cig-item">
@@ -314,7 +317,7 @@
                 <h5><i class="bx bx-laptop"></i> Plataforma: <span class="color-facebook">Facebook</span> y <span class="color-youtube">YouTube</span></h5>                
                 <h5><i class="bx bx-money"></i> GRATUITO</h5><br/> 
                 <div class="text-center">
-                  <a href="Calendario de cursos.html" class="more-btn-blue">Ver Más <i class="fa fa-arrow-right"></i></a>
+                  <a class="more-btn-blue" data-toggle="modal" data-target="#ceducamodal_1">Ver Más <i class="fa fa-arrow-right"></i></a>
                 </div><br>               
               </div>
               <div class="notices-cig-item">
@@ -333,7 +336,7 @@
                 <h5><i class="bx bx-laptop"></i> Plataforma: <span class="color-facebook">Facebook</span> y <span class="color-youtube">YouTube</span></h5>                
                 <h5><i class="bx bx-money"></i> GRATUITO</h5><br/>       
                 <div class="text-center">
-                  <a href="Calendario de cursos.html" class="more-btn-blue">Ver Más <i class="fa fa-arrow-right"></i></a>
+                  <a class="more-btn-blue" data-toggle="modal" data-target="#ceducamodal_1">Ver Más <i class="fa fa-arrow-right"></i></a>
                 </div><br>         
               </div>
               <div class="notices-cig-item">
@@ -352,7 +355,7 @@
                 <h5><i class="bx bx-laptop"></i> Plataforma: <span class="color-facebook">Facebook</span> y <span class="color-youtube">YouTube</span></h5>                
                 <h5><i class="bx bx-money"></i> GRATUITO</h5><br/>    
                 <div class="text-center">
-                  <a href="Calendario de cursos.html" class="more-btn-blue">Ver Más <i class="fa fa-arrow-right"></i></a>
+                  <a class="more-btn-blue" data-toggle="modal" data-target="#ceducamodal_1">Ver Más <i class="fa fa-arrow-right"></i></a>
                 </div><br>            
               </div>
               <div class="notices-cig-item">
@@ -371,7 +374,7 @@
                 <h5><i class="bx bx-laptop"></i> Plataforma: <span class="color-zoom">Zoom</span> Link: <a href="https://bit.ly/Herramientas_Calidad">Herramientas Calidad</a></h5>                
                 <h5><i class="bx bx-money"></i> GRATUITO</h5><br/> 
                 <div class="text-center">
-                  <a href="Calendario de cursos.html" class="more-btn-blue">Ver Más <i class="fa fa-arrow-right"></i></a>
+                  <a class="more-btn-blue" data-toggle="modal" data-target="#ceducamodal_1">Ver Más <i class="fa fa-arrow-right"></i></a>
                 </div><br>               
               </div>
             </div>
@@ -662,6 +665,9 @@
   <!-- Modales para Noticias y Videos-->
   <div id="modalsindex"></div>
 
+  <!-- Modales para CEDUCA-->
+  <div id="modalsindexceduca"></div>
+
   <!-- Modal Inicio Pagina-->
   <div class="portfolio-modal-cig modal fade" id="firstmodal" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
     <div class="modal-dialog modal-xl" role="document">
@@ -733,7 +739,7 @@
 
   <script type="text/javascript">
     $( document ).ready(function() {
-      $('#firstmodal').modal('toggle');      
+      //$('#firstmodal').modal('toggle');      
     });
   </script>
 

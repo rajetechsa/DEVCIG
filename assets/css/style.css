@@ -1271,6 +1271,11 @@ section {
   transition: all ease-in-out 0.4s;
 }
 
+.notices-cig .more-btn-blue:hover {  
+  background: #e4b600a4;
+  cursor: pointer;
+}
+
 .notices-cig-ceduca .notices-cig-item .notices-cig-img {
   width: 150px;
   border-radius: 50%;
