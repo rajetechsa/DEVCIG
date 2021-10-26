@@ -2524,7 +2524,7 @@ section {
 }
 
 .wave-blue {
-  background: url(/assets/img/banner/wave-cig-blue.svg) repeat-x;
+  background: url(../../assets/img/banner/wave-cig-blue.svg) repeat-x;
   position: absolute;
   top: -100px;
   width: 6400px;
@@ -3302,21 +3302,21 @@ section {
 
 /*Portadas Videos*/
 .portada-video1-cig {
-  background-image: url("/assets/img/videos/V1.png");
+  background-image: url("../../assets/img/videos/V1.png");
   width: 100%;
   height: 150px;
   background-size: cover;
 }
 
 .portada-video2-cig {
-  background-image: url("/assets/img/videos/V2.png");
+  background-image: url("../../assets/img/videos/V2.png");
   width: 100%;
   height: 150px;
   background-size: cover;
 }
 
 .portada-video3-cig {
-  background-image: url("/assets/img/videos/V3.png");
+  background-image: url("../../assets/img/videos/V3.png");
   width: 100%;
   height: 150px;
   background-size: cover;
