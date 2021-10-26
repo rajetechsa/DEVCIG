@@ -1,5 +1,5 @@
 /**
-* Template Name: Colegio Ingenieros de Guatemala - v1.76
+* Template Name: Colegio Ingenieros de Guatemala - v1.80
 * License: https://cig.org.gt/
 */
 
@@ -187,10 +187,6 @@ h6 {
   color: #0f54b0;
 }
 
-/*.header-cig .nav-menu > ul :hover {
-  color: #E4B500;
-}*/
-
 .nav-menu a {
   display: block;
   position: relative;
@@ -306,25 +302,25 @@ h6 {
 
 @media (max-width: 1800px) {
   .nav-menu a {
-    font-size: 14px !important;
+    font-size: 13px !important;
   }
 }
 
 @media (max-width: 1700px) {
   .nav-menu a {
-    font-size: 14px !important;
+    font-size: 13px !important;
   }
 }
 
 @media (max-width: 1600px) {
   .nav-menu a {
-    font-size: 13px !important;
+    font-size: 11px !important;
   }
 }
 
 @media (max-width: 1500px) {
   .nav-menu a {
-    font-size: 12px !important;
+    font-size: 11px !important;
   }
 }
 
