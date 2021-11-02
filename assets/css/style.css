@@ -3131,6 +3131,7 @@ section {
 .Separar-text {
   margin-bottom: 25px;
   font-size: larger;
+  text-align: justify;
 }
 
 /*--------------------------------------------------------------
