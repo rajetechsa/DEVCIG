@@ -61,7 +61,7 @@
           <h2></h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">Empelos Internos</a></li>            
+            <li><a href="#">Empleos Internos</a></li>            
           </ol>
         </div>
       </div>
@@ -83,32 +83,32 @@
                 <p>
                  
                 </p>                                
-                <a href="assets/img/banner/carrera.jpg" data-gall="portfolioGallery" class="venobox" title="Explorando los objetos centrales de Kubernetes con Oracle Cloud">
+                <a href="assets/img/banner/carrera.jpg" data-gall="portfolioGallery" class="venobox" title="Empleo">
                   <img src="assets/img/banner/carrera.jpg" class="" alt="">
                 </a>
                            
               </div>
               <div class="notices-cig-item">
                 <P></P>
-                <a href="assets/img/banner/boda.jpg" data-gall="portfolioGallery" class="venobox" title="Explorando los objetos centrales de Kubernetes con Oracle Cloud">
+                <a href="assets/img/banner/boda.jpg" data-gall="portfolioGallery" class="venobox" title="Empleo">
                   <img src="assets/img/banner/boda.jpg" class="" alt="">
                 </a>             
               </div>
               <div class="notices-cig-item">
                 <P></P>
-                <a href="assets/img/banner/curso.jpg" data-gall="portfolioGallery" class="venobox" title="Explorando los objetos centrales de Kubernetes con Oracle Cloud">
+                <a href="assets/img/banner/curso.jpg" data-gall="portfolioGallery" class="venobox" title="Empleo">
                   <img src="assets/img/banner/curso.jpg" class="" alt="">
                 </a>                  
               </div>
               <div class="notices-cig-item">
                 <P></P>
-                <a href="assets/img/banner/carrera.jpg" data-gall="portfolioGallery" class="venobox" title="Explorando los objetos centrales de Kubernetes con Oracle Cloud">
+                <a href="assets/img/banner/carrera.jpg" data-gall="portfolioGallery" class="venobox" title="Empleo">
                   <img src="assets/img/banner/carrera.jpg" class="" alt="">
                 </a>               
               </div>
               <div class="notices-cig-item">
                 <P></P>
-                <a href="assets/img/banner/boda.jpg" data-gall="portfolioGallery" class="venobox" title="Explorando los objetos centrales de Kubernetes con Oracle Cloud">
+                <a href="assets/img/banner/boda.jpg" data-gall="portfolioGallery" class="venobox" title="Empleo">
                   <img src="assets/img/banner/boda.jpg" class="" alt="">
                 </a>            
               </div>
@@ -117,7 +117,40 @@
         </div>
       </div>
     </section><!-- End Noticias CEDUCA Section --> 
-<!--Segunda Muestra de Carrusell-->
+
+    <section></section>
+    
+    <!-- Modal Inicio Pagina-->
+    <div class="portfolio-modal-cig modal fade" id="firstmodal" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+      <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true"><i class="fa fa-times"></i></span>
+              </button>
+              <div class="modal-body text-center">
+                  <div class="container">
+                      <div class="row justify-content-center">
+                          <div class="col-lg-10">
+                          <!-- Portfolio Modal - Title-->
+                          <h2 class="portfolio-modal-title-cig text-secondary text-uppercase mb-0" id="portfolioModal1Label">Aviso Importante</h2>
+                          <!-- Icon Divider-->
+                          <div class="divider-custom">
+                              <div class="divider-custom-line"></div>
+                              <div class="divider-custom-icon"><i class="fa fa-star"></i></div>
+                              <div class="divider-custom-line"></div>
+                          </div>
+                          <!-- Portfolio Modal - Text-->
+                          <h1 class="mb-5 text-secondary">El Colegio de Ingenieros de Guatemala solamente hace la función de apoyar publicando plazas.</h1>
+                            <button class="btn btn-cig" data-dismiss="modal">
+                            <i class="fa fa-times"></i>Cerrar Ventana
+                            </button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
 
   </main><!-- End #main -->
 
@@ -139,6 +172,12 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script type="text/javascript">
+    $( document ).ready(function() {
+      $('#firstmodal').modal('toggle');      
+    });
+  </script>
 
 </body>
 
