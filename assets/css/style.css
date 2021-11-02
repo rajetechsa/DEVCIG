@@ -3473,3 +3473,16 @@ thead {
 .negrita-pequeña {
   font-weight: bold;
 }
+
+.img-cig-orga {
+  width: 100%; 
+  cursor: pointer;  
+}
+.zoom-cig {
+  width: 100%; 
+  cursor: pointer;  
+}
+
+.zoom-cig:hover {
+  transform: scale(1.4);
+}
