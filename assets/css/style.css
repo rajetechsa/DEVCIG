@@ -17,7 +17,7 @@ body {
 }
 
 a {
-  color: #0067AA;
+  color: #000F54;
 }
 
 a:hover {
@@ -180,11 +180,11 @@ h6 {
 }
 
 .nav-menu > ul > li :hover {
-  color: #0067AA;
+  color: #000F54;
 }
 
 .nav-menu > ul :hover {
-  color: #0067AA;
+  color: #000F54;
 }
 
 .nav-menu a {
@@ -202,12 +202,12 @@ h6 {
 .nav-menu a:hover,
 .nav-menu > a,
 .nav-menu li:hover > a {
-  color: #0067AA;
+  color: #000F54;
   text-decoration: none;
 }
 
 .nav-menu .get-started a {
-  background: #0067AA;
+  background: #000F54;
   color: #fff;
   border-radius: 50px;
   margin: 0 10px;
@@ -254,7 +254,7 @@ h6 {
 .nav-menu .drop-down ul a:hover,
 .nav-menu .drop-down ul .active > a,
 .nav-menu .drop-down ul li:hover > a {
-  color: #0067AA;
+  color: #000F54;
 }
 
 .nav-menu .drop-down > a:after {
@@ -377,7 +377,7 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active > a,
 .mobile-nav li:hover > a {
-  color: #0067AA;
+  color: #000F54;
   text-decoration: none;
 }
 
@@ -386,7 +386,7 @@ h6 {
 }
 
 .mobile-nav .get-started a {
-  background: #0067AA;
+  background: #000F54;
   color: #fff;
   border-radius: 50px;
   margin: 0 15px;
@@ -518,8 +518,8 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #0067AA;
-  border: 2px solid #0067AA;
+  background: #000F54;
+  border: 2px solid #000F54;
 }
 
 @media (min-width: 1024px) {
@@ -573,7 +573,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #0067AA;
+  background: #000F54;
   bottom: 0;
   left: 0;
 }
@@ -636,7 +636,7 @@ section {
   top: 7px;
   position: absolute;
   font-size: 20px;
-  color: #0067AA;
+  color: #000F54;
 }
 
 .about .content p:last-child {
@@ -647,7 +647,7 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  background: #0067AA;
+  background: #000F54;
   padding: 40px 0 20px 0;
   color: #fff;
 }
@@ -679,7 +679,7 @@ section {
 
 .why-us .content {
   padding: 30px;
-  background: #0067AA;
+  background: #000F54;
   border-radius: 4px;
   color: #fff;
   height: 425px;
@@ -709,7 +709,7 @@ section {
 }
 
 .why-us .content .more-btn:hover {
-  color: #0067AA;
+  color: #000F54;
   background: #fff;
 }
 
@@ -717,7 +717,7 @@ section {
   text-align: center;
   border-radius: 10px;
   background: #fff;
-  box-shadow: 0px 0 25px 0 #0067AA52;
+  box-shadow: 0px 0 25px 0 #000F5452;
   padding: 40px 30px;
   width: 100%;
   transition: 0.3s;
@@ -726,7 +726,7 @@ section {
 
 .why-us .icon-boxes .icon-box i {
   font-size: 40px;
-  color: #0067AA;
+  color: #000F54;
   margin-bottom: 30px;
 }
 
@@ -746,9 +746,9 @@ section {
 }
 
 .why-us .content:hover {
-  -webkit-box-shadow: 3px 3px 5px 6px #0067AA52;
-  -moz-box-shadow: 3px 3px 5px 6px #0067AA52;
-  box-shadow: 3px 3px 5px 6px #0067AA52;
+  -webkit-box-shadow: 3px 3px 5px 6px #000F5452;
+  -moz-box-shadow: 3px 3px 5px 6px #000F5452;
+  box-shadow: 3px 3px 5px 6px #000F5452;
 }
 
 /*--------------------------------------------------------------
@@ -787,8 +787,8 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: #0067AA;
-  border: 2px solid #0067AA;
+  background: #000F54;
+  border: 2px solid #000F54;
 }
 
 /*--------------------------------------------------------------
@@ -800,7 +800,7 @@ section {
   transition: all ease-in-out 0.3s;
   background: #fff;
   border-color: #fff;
-  box-shadow: 0px 0 25px 0 #0067AA52;
+  box-shadow: 0px 0 25px 0 #000F5452;
 }
 
 .services .icon-box .icon {
@@ -808,13 +808,13 @@ section {
   width: 64px;
   height: 64px;
   border-radius: 50px;
-  border: 1px solid #0067AA;
+  border: 1px solid #000F54;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
   transition: ease-in-out 0.3s;
-  color: #0067AA;
+  color: #000F54;
 }
 
 .services .icon-box .icon i {
@@ -887,7 +887,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #0067AA;
+  background: #000F54;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -983,7 +983,7 @@ section {
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials {
-  background: #0067AA;
+  background: #000F54;
   color: white;
 }
 
@@ -995,7 +995,7 @@ section {
   min-height: 350px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   background: #fff;
-  color: #0067AA !important;
+  color: #000F54 !important;
 }
 
 .testimonials .testimonial-item video {
@@ -1096,11 +1096,11 @@ section {
 
 .notices-cig-colegio {
   background: white;
-  color: #0067AA;
+  color: #000F54;
 }
 
 .notices-cig-ceduca {
-  background: #0067AA;
+  background: #000F54;
   color: white;
 }
 
@@ -1111,7 +1111,7 @@ section {
 
 .notices-cig-servicios {
   background: white;
-  color: #0067AA;
+  color: #000F54;
 }
 
 .notices-cig .notices-cig-item {
@@ -1121,9 +1121,9 @@ section {
   margin: 30px 15px;
   text-align: center;
   min-height: 310px;
-  box-shadow: 0px 0 25px 0 #0067AA52;
+  box-shadow: 0px 0 25px 0 #000F5452;
   background: white;
-  color: #0067AA !important;
+  color: #000F54 !important;
   line-height: 2em;
 }
 
@@ -1133,9 +1133,9 @@ section {
   border-radius: 0.5rem;
   margin: 30px 15px;
   text-align: center;
-  box-shadow: 0px 0 10px 0 #0067AA52;
+  box-shadow: 0px 0 10px 0 #000F5452;
   background: white;
-  color: #0067AA !important;
+  color: #000F54 !important;
   line-height: 2em;
 }
 
@@ -1145,8 +1145,8 @@ section {
   margin: 30px 15px;
   text-align: center;
   min-height: 310px;
-  box-shadow: 0px 0 25px 0 #0067AA52;
-  background: #0067AA;
+  box-shadow: 0px 0 25px 0 #000F5452;
+  background: #000F54;
   color: white;
   line-height: 2em;
 }
@@ -1307,7 +1307,7 @@ section {
 .notices-cig-ceduca .notices-cig-item p {
   font-style: italic;
   padding: 10px 5px 0 5px;
-  color: #0067AA;
+  color: #000F54;
 }
 
 .notices-cig-ceduca .bx {
@@ -1341,7 +1341,7 @@ section {
 .notices-cig-esquelas .notices-cig-itemesq p {
   font-style: italic;
   padding: 10px 5px 0 5px;
-  color: #0067AA;
+  color: #000F54;
 }
 
 .notices-cig-esquelas .bx {
@@ -1457,7 +1457,7 @@ section {
 }
 
 .team .member .social a:hover {
-  background: #0067AA;
+  background: #000F54;
 }
 
 .team .member .social a + a {
@@ -1480,7 +1480,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #0067AA;
+  background: #000F54;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1580,7 +1580,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #0067AA;
+  background: #000F54;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1589,7 +1589,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #0067AA;
+  background: #000F54;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1688,7 +1688,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #0067AA !important;
+  background-color: #000F54 !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1822,7 +1822,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #0067AA;
+  color: #000F54;
 }
 
 #footer .footer-newsletter {
@@ -1862,7 +1862,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #0067AA;
+  background: #000F54;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -1882,7 +1882,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0067AA;
+  background: #000F54;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1915,7 +1915,7 @@ section {
 }
 
 .color-text-default-cig {
-  color: #0067AA !important;
+  color: #000F54 !important;
 }
 
 .color-facebook {
@@ -1943,11 +1943,11 @@ section {
 }
 
 .colorV2 {
-  color: #0067AA;
+  color: #000F54;
 }
 
 .colorV3 {
-  color: #0067AA;
+  color: #000F54;
 }
 
 .colorV4 {
@@ -1966,10 +1966,10 @@ section {
 # Button
 --------------------------------------------------------------*/
 .btn-cig {
-  background: #0067AA;
+  background: #000F54;
   color: #fff;
   border-radius: 50px;
-  border-color: #0067AA;
+  border-color: #000F54;
 }
 
 /*--------------------------------------------------------------
@@ -2065,7 +2065,7 @@ section {
   top: 1rem;
   font-size: 3rem;
   line-height: 3rem;
-  color: #0067AA;
+  color: #000F54;
   opacity: 1;
 }
 
@@ -2799,7 +2799,7 @@ section {
 .container-universidades {
   background-color: white !important;
   border-radius: 25px;
-  box-shadow: 0px 0 25px 0 #0067AA52;
+  box-shadow: 0px 0 25px 0 #000F5452;
   text-align: center;
   padding: 25px 0px;
 }
@@ -2862,7 +2862,7 @@ section {
 .level-1 {
   width: 50%;
   margin: 0 auto 40px;
-  background: #0067AA;
+  background: #000F54;
   color: #E0B445;
   border-radius: 10px;
 }
@@ -2926,7 +2926,7 @@ section {
   width: 70%;
   margin: 0 auto 40px;
   background: #E0B445;
-  color: #0067AA;
+  color: #000F54;
   border-radius: 10px;
 }
 
@@ -2987,7 +2987,7 @@ section {
 
 .level-3 {
   margin-bottom: 20px;
-  background: #0067AA;
+  background: #000F54;
   color: #E0B445;
   font-size: 20px !important;
   border-radius: 10px;
@@ -3132,7 +3132,7 @@ section {
 /* para intercalar colores en MiembrosTribunalHonor.html */
 .diseño-tirbunaldehonor {
   color: #fff;
-  background-color: #0067AA;
+  background-color: #000F54;
   font-size: medium;
 }
 
@@ -3148,7 +3148,7 @@ section {
 .img-video-cig {
   margin-top: 40px;
   font-size: 75px;
-  color: #0067AA;
+  color: #000F54;
 }
 
 .img-video-cig:hover {
@@ -3161,7 +3161,7 @@ section {
 .img-comisiones-cig {
   width: 100%;
   border-radius: 25px;
-  box-shadow: 0px 0 25px 0 #0067AA52;
+  box-shadow: 0px 0 25px 0 #000F5452;
 }
 
 .img-comisiones-cig:hover {
@@ -3191,13 +3191,13 @@ section {
 /*Para cambiarle color a los titulos*/
 .titulos {
   color: #fff;
-  background-color: #0067AA;
+  background-color: #000F54;
 }
 
 /* Para intercalar colores */
 .color {
   color: #fff;
-  background-color: #0067AA;
+  background-color: #000F54;
 }
 
 .color2 {
@@ -3212,7 +3212,7 @@ section {
 
 .color4 {
   background-color: #fff;
-  color: #0067AA;
+  color: #000F54;
 }
 
 /* Para estilos de la galería */
@@ -3246,7 +3246,7 @@ section {
 
 .fondo {
   /* background-color:#E0B445 ;*/
-  /* background-color:#0067AA; */
+  /* background-color:#000F54; */
   background-color: #000;
 }
 
@@ -3335,9 +3335,9 @@ section {
 /*Sedes SubSedes*/
 .card-item-subsedes-cig {
   width: 270px;
-  background-color: #0067AA !important;
+  background-color: #000F54 !important;
   border-radius: 25px;
-  box-shadow: 0px 0 25px 0 #0067AA52;
+  box-shadow: 0px 0 25px 0 #000F5452;
   height: 200px;
   text-align: center;
   padding: 50px 0px;
@@ -3388,7 +3388,7 @@ td {
 }
 
 thead {
-  background-color: #0067AA;
+  background-color: #000F54;
   border-bottom: solid 5px #E0B445;
   color: white;
 }
@@ -3445,7 +3445,7 @@ thead {
 /* Para fondo azul de galería */
 
 .fondoazul {
-  background-color: #0067AA;
+  background-color: #000F54;
 }
 
 /*--------------------------------------------------------------
@@ -3456,7 +3456,7 @@ thead {
 }
 
 .general-cig .section-title {
-  color: #0067AA;
+  color: #000F54;
 }
 
 .notices-relevantes-cig-img {
