@@ -17,7 +17,7 @@ body {
 }
 
 a {
-  color: #0f54b0;
+  color: #0067AA;
 }
 
 a:hover {
@@ -53,7 +53,7 @@ h6 {
   width: 40px;
   height: 40px;
   border-radius: 50px;
-  background: #e4b500;
+  background: #E0B445;
   color: #fff;
   transition: all 0.4s;
 }
@@ -89,7 +89,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: #e4b500;
+  background: #E0B445;
   color: white;
   top: 0;
 }
@@ -146,7 +146,7 @@ h6 {
   }
   #header.header-scrolled,
   #header .header-container {
-    background: #e4b500;
+    background: #E0B445;
     color: white;
   }
   #header,
@@ -180,11 +180,11 @@ h6 {
 }
 
 .nav-menu > ul > li :hover {
-  color: #0f54b0;
+  color: #0067AA;
 }
 
 .nav-menu > ul :hover {
-  color: #0f54b0;
+  color: #0067AA;
 }
 
 .nav-menu a {
@@ -202,12 +202,12 @@ h6 {
 .nav-menu a:hover,
 .nav-menu > a,
 .nav-menu li:hover > a {
-  color: #0f54b0;
+  color: #0067AA;
   text-decoration: none;
 }
 
 .nav-menu .get-started a {
-  background: #0f54b0;
+  background: #0067AA;
   color: #fff;
   border-radius: 50px;
   margin: 0 10px;
@@ -215,7 +215,7 @@ h6 {
 }
 
 .nav-menu .get-started a:hover {
-  background: #e4b500;
+  background: #E0B445;
   color: #fff;
 }
 
@@ -254,7 +254,7 @@ h6 {
 .nav-menu .drop-down ul a:hover,
 .nav-menu .drop-down ul .active > a,
 .nav-menu .drop-down ul li:hover > a {
-  color: #0f54b0;
+  color: #0067AA;
 }
 
 .nav-menu .drop-down > a:after {
@@ -377,7 +377,7 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active > a,
 .mobile-nav li:hover > a {
-  color: #0f54b0;
+  color: #0067AA;
   text-decoration: none;
 }
 
@@ -386,7 +386,7 @@ h6 {
 }
 
 .mobile-nav .get-started a {
-  background: #0f54b0;
+  background: #0067AA;
   color: #fff;
   border-radius: 50px;
   margin: 0 15px;
@@ -395,7 +395,7 @@ h6 {
 }
 
 .mobile-nav .get-started a:hover {
-  background: #e4b500;
+  background: #E0B445;
   color: #fff;
 }
 
@@ -518,8 +518,8 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #0f54b0;
-  border: 2px solid #0f54b0;
+  background: #0067AA;
+  border: 2px solid #0067AA;
 }
 
 @media (min-width: 1024px) {
@@ -573,7 +573,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #0f54b0;
+  background: #0067AA;
   bottom: 0;
   left: 0;
 }
@@ -636,7 +636,7 @@ section {
   top: 7px;
   position: absolute;
   font-size: 20px;
-  color: #0f54b0;
+  color: #0067AA;
 }
 
 .about .content p:last-child {
@@ -647,7 +647,7 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  background: #0f54b0;
+  background: #0067AA;
   padding: 40px 0 20px 0;
   color: #fff;
 }
@@ -679,7 +679,7 @@ section {
 
 .why-us .content {
   padding: 30px;
-  background: #0f54b0;
+  background: #0067AA;
   border-radius: 4px;
   color: #fff;
   height: 425px;
@@ -709,7 +709,7 @@ section {
 }
 
 .why-us .content .more-btn:hover {
-  color: #0f54b0;
+  color: #0067AA;
   background: #fff;
 }
 
@@ -717,7 +717,7 @@ section {
   text-align: center;
   border-radius: 10px;
   background: #fff;
-  box-shadow: 0px 0 25px 0 #0f54b052;
+  box-shadow: 0px 0 25px 0 #0067AA52;
   padding: 40px 30px;
   width: 100%;
   transition: 0.3s;
@@ -726,7 +726,7 @@ section {
 
 .why-us .icon-boxes .icon-box i {
   font-size: 40px;
-  color: #0f54b0;
+  color: #0067AA;
   margin-bottom: 30px;
 }
 
@@ -746,9 +746,9 @@ section {
 }
 
 .why-us .content:hover {
-  -webkit-box-shadow: 3px 3px 5px 6px #0f54b052;
-  -moz-box-shadow: 3px 3px 5px 6px #0f54b052;
-  box-shadow: 3px 3px 5px 6px #0f54b052;
+  -webkit-box-shadow: 3px 3px 5px 6px #0067AA52;
+  -moz-box-shadow: 3px 3px 5px 6px #0067AA52;
+  box-shadow: 3px 3px 5px 6px #0067AA52;
 }
 
 /*--------------------------------------------------------------
@@ -787,8 +787,8 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: #0f54b0;
-  border: 2px solid #0f54b0;
+  background: #0067AA;
+  border: 2px solid #0067AA;
 }
 
 /*--------------------------------------------------------------
@@ -800,7 +800,7 @@ section {
   transition: all ease-in-out 0.3s;
   background: #fff;
   border-color: #fff;
-  box-shadow: 0px 0 25px 0 #0f54b052;
+  box-shadow: 0px 0 25px 0 #0067AA52;
 }
 
 .services .icon-box .icon {
@@ -808,13 +808,13 @@ section {
   width: 64px;
   height: 64px;
   border-radius: 50px;
-  border: 1px solid #0f54b0;
+  border: 1px solid #0067AA;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
   transition: ease-in-out 0.3s;
-  color: #0f54b0;
+  color: #0067AA;
 }
 
 .services .icon-box .icon i {
@@ -839,19 +839,19 @@ section {
 }
 
 .services .icon-box:hover h4 a {
-  color: #e4b500;
+  color: #E0B445;
   cursor: pointer;
 }
 
 .services .icon-box:hover p {
-  color: #e4b500;
+  color: #E0B445;
   cursor: pointer;
 }
 
 .services .icon-box:hover .icon {
   color: #fff;
-  background: #e4b500;
-  border: 1px solid #e4b500;
+  background: #E0B445;
+  border: 1px solid #E0B445;
   cursor: pointer;
 }
 
@@ -887,7 +887,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #0f54b0;
+  background: #0067AA;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -964,7 +964,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #e4b500;
+  color: #E0B445;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -983,7 +983,7 @@ section {
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials {
-  background: #0f54b0;
+  background: #0067AA;
   color: white;
 }
 
@@ -995,7 +995,7 @@ section {
   min-height: 350px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   background: #fff;
-  color: #0f54b0 !important;
+  color: #0067AA !important;
 }
 
 .testimonials .testimonial-item video {
@@ -1032,7 +1032,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #e4b500;
+  color: #E0B445;
   font-size: 26px;
 }
 
@@ -1066,11 +1066,11 @@ section {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  border: 2px solid #e4b500 !important;
+  border: 2px solid #E0B445 !important;
 }
 
 .testimonials .owl-dot.active {
-  background-color: #e4b500 !important;
+  background-color: #E0B445 !important;
 }
 
 @media (max-width: 767px) {
@@ -1096,11 +1096,11 @@ section {
 
 .notices-cig-colegio {
   background: white;
-  color: #0f54b0;
+  color: #0067AA;
 }
 
 .notices-cig-ceduca {
-  background: #0f54b0;
+  background: #0067AA;
   color: white;
 }
 
@@ -1111,7 +1111,7 @@ section {
 
 .notices-cig-servicios {
   background: white;
-  color: #0f54b0;
+  color: #0067AA;
 }
 
 .notices-cig .notices-cig-item {
@@ -1121,9 +1121,9 @@ section {
   margin: 30px 15px;
   text-align: center;
   min-height: 310px;
-  box-shadow: 0px 0 25px 0 #0f54b052;
+  box-shadow: 0px 0 25px 0 #0067AA52;
   background: white;
-  color: #0f54b0 !important;
+  color: #0067AA !important;
   line-height: 2em;
 }
 
@@ -1133,9 +1133,9 @@ section {
   border-radius: 0.5rem;
   margin: 30px 15px;
   text-align: center;
-  box-shadow: 0px 0 10px 0 #0f54b052;
+  box-shadow: 0px 0 10px 0 #0067AA52;
   background: white;
-  color: #0f54b0 !important;
+  color: #0067AA !important;
   line-height: 2em;
 }
 
@@ -1145,8 +1145,8 @@ section {
   margin: 30px 15px;
   text-align: center;
   min-height: 310px;
-  box-shadow: 0px 0 25px 0 #0f54b052;
-  background: #0f54b0;
+  box-shadow: 0px 0 25px 0 #0067AA52;
+  background: #0067AA;
   color: white;
   line-height: 2em;
 }
@@ -1186,7 +1186,7 @@ section {
 
 .notices-cig .notices-cig-item .quote-icon-left,
 .notices-cig .notices-cig-item .quote-icon-right {
-  color: #e4b500;
+  color: #E0B445;
   font-size: 26px;
 }
 
@@ -1224,11 +1224,11 @@ section {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  border: 2px solid #e4b500 !important;
+  border: 2px solid #E0B445 !important;
 }
 
 .notices-cig .owl-dot.active {
-  background-color: #e4b500 !important;
+  background-color: #E0B445 !important;
 }
 
 .notices-cig .notices-cig-esquelas .owl-dot {
@@ -1307,7 +1307,7 @@ section {
 .notices-cig-ceduca .notices-cig-item p {
   font-style: italic;
   padding: 10px 5px 0 5px;
-  color: #0f54b0;
+  color: #0067AA;
 }
 
 .notices-cig-ceduca .bx {
@@ -1341,7 +1341,7 @@ section {
 .notices-cig-esquelas .notices-cig-itemesq p {
   font-style: italic;
   padding: 10px 5px 0 5px;
-  color: #0f54b0;
+  color: #0067AA;
 }
 
 .notices-cig-esquelas .bx {
@@ -1457,7 +1457,7 @@ section {
 }
 
 .team .member .social a:hover {
-  background: #0f54b0;
+  background: #0067AA;
 }
 
 .team .member .social a + a {
@@ -1480,7 +1480,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #0f54b0;
+  background: #0067AA;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1580,7 +1580,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #0f54b0;
+  background: #0067AA;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1589,7 +1589,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #0f54b0;
+  background: #0067AA;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1688,7 +1688,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #0f54b0 !important;
+  background-color: #0067AA !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1822,7 +1822,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #0f54b0;
+  color: #0067AA;
 }
 
 #footer .footer-newsletter {
@@ -1862,7 +1862,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #0f54b0;
+  background: #0067AA;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -1870,7 +1870,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #e4b500;
+  background: #E0B445;
 }
 
 #footer .credits {
@@ -1882,7 +1882,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0f54b0;
+  background: #0067AA;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1895,7 +1895,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #e4b500;
+  background: #E0B445;
   color: #fff;
   text-decoration: none;
 }
@@ -1915,7 +1915,7 @@ section {
 }
 
 .color-text-default-cig {
-  color: #0f54b0 !important;
+  color: #0067AA !important;
 }
 
 .color-facebook {
@@ -1943,32 +1943,40 @@ section {
 }
 
 .colorV2 {
-  color: #0f54b0;
+  color: #0067AA;
 }
 
 .colorV3 {
-  color: #0f54b0;
+  color: #0067AA;
 }
 
-.colorV3 {
-  color: #e4b500;
+.colorV4 {
+  color: #E0B445;
+}
+
+.colorV5 {
+  color: #00e47a;
+}
+
+.colorV6 {
+  color: #00d5e4;
 }
 
 /*--------------------------------------------------------------
 # Button
 --------------------------------------------------------------*/
 .btn-cig {
-  background: #0f54b0;
+  background: #0067AA;
   color: #fff;
   border-radius: 50px;
-  border-color: #0f54b0;
+  border-color: #0067AA;
 }
 
 /*--------------------------------------------------------------
 # Bookmarks
 --------------------------------------------------------------*/
 .bookmarks-cig {
-  border: 25px solid #e4b500;
+  border: 25px solid #E0B445;
   border-right: 0;
   border-left: 15px solid transparent;
   width: 120px;
@@ -2057,7 +2065,7 @@ section {
   top: 1rem;
   font-size: 3rem;
   line-height: 3rem;
-  color: #0f54b0;
+  color: #0067AA;
   opacity: 1;
 }
 
@@ -2302,7 +2310,7 @@ section {
 }
 
 .carousel-border-cig {
-  border-bottom: 1px solid #e4b500;
+  border-bottom: 1px solid #E0B445;
 }
 
 /*--------------------------------------------------------------
@@ -2495,7 +2503,7 @@ section {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: #e4b500;
+  background: #E0B445;
 }
 
 .wave {
@@ -2584,7 +2592,7 @@ section {
 
 .slick-prev:before,
 .slick-next:before {
-  color: #e4b500 !important;
+  color: #E0B445 !important;
 }
 
 .slick-slide {
@@ -2625,7 +2633,7 @@ section {
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  background: #e4b500;
+  background: #E0B445;
   position: absolute;
   top: -80px;
   left: 15px;
@@ -2752,7 +2760,7 @@ section {
   border: 2px solid #0016b0;
 }
 .boton_personalizado:hover {
-  color: #e4b500;
+  color: #E0B445;
   background-color: #fff;
 }
 
@@ -2783,7 +2791,7 @@ section {
 .container-comisiones .card:hover {
   transform: translateY(-15px);
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-  color: #e4b500;
+  color: #E0B445;
   background-color: #fff;
 }
 
@@ -2791,19 +2799,19 @@ section {
 .container-universidades {
   background-color: white !important;
   border-radius: 25px;
-  box-shadow: 0px 0 25px 0 #0f54b052;
+  box-shadow: 0px 0 25px 0 #0067AA52;
   text-align: center;
   padding: 25px 0px;
 }
 
 .container-universidades h3 {
   margin-top: 15px;
-  color: #e4b500;
+  color: #E0B445;
 }
 
 .container-universidades h4 {
   margin-top: 15px;
-  color: #e4b500;
+  color: #E0B445;
 }
 
 .container-universidades:hover {
@@ -2854,8 +2862,8 @@ section {
 .level-1 {
   width: 50%;
   margin: 0 auto 40px;
-  background: #0f54b0;
-  color: #e4b500;
+  background: #0067AA;
+  color: #E0B445;
   border-radius: 10px;
 }
 
@@ -2917,8 +2925,8 @@ section {
 .level-2 {
   width: 70%;
   margin: 0 auto 40px;
-  background: #e4b500;
-  color: #0f54b0;
+  background: #E0B445;
+  color: #0067AA;
   border-radius: 10px;
 }
 
@@ -2979,8 +2987,8 @@ section {
 
 .level-3 {
   margin-bottom: 20px;
-  background: #0f54b0;
-  color: #e4b500;
+  background: #0067AA;
+  color: #E0B445;
   font-size: 20px !important;
   border-radius: 10px;
 }
@@ -3124,7 +3132,7 @@ section {
 /* para intercalar colores en MiembrosTribunalHonor.html */
 .diseño-tirbunaldehonor {
   color: #fff;
-  background-color: #0f54b0;
+  background-color: #0067AA;
   font-size: medium;
 }
 
@@ -3140,11 +3148,11 @@ section {
 .img-video-cig {
   margin-top: 40px;
   font-size: 75px;
-  color: #0f54b0;
+  color: #0067AA;
 }
 
 .img-video-cig:hover {
-  color: #e4b500;
+  color: #E0B445;
   transform: scale(1.5);
   transform-style: preserve-3d;
   transition: all 1s linear;
@@ -3153,7 +3161,7 @@ section {
 .img-comisiones-cig {
   width: 100%;
   border-radius: 25px;
-  box-shadow: 0px 0 25px 0 #0f54b052;
+  box-shadow: 0px 0 25px 0 #0067AA52;
 }
 
 .img-comisiones-cig:hover {
@@ -3183,28 +3191,28 @@ section {
 /*Para cambiarle color a los titulos*/
 .titulos {
   color: #fff;
-  background-color: #0f54b0;
+  background-color: #0067AA;
 }
 
 /* Para intercalar colores */
 .color {
   color: #fff;
-  background-color: #0f54b0;
+  background-color: #0067AA;
 }
 
 .color2 {
-  background-color: #e4b500;
+  background-color: #E0B445;
   color: #fff;
 }
 
 .color3 {
   background-color: #fff;
-  color: #e4b500;
+  color: #E0B445;
 }
 
 .color4 {
   background-color: #fff;
-  color: #0f54b0;
+  color: #0067AA;
 }
 
 /* Para estilos de la galería */
@@ -3237,8 +3245,8 @@ section {
 }
 
 .fondo {
-  /* background-color:#E4B500 ;*/
-  /* background-color:#0F54B0; */
+  /* background-color:#E0B445 ;*/
+  /* background-color:#0067AA; */
   background-color: #000;
 }
 
@@ -3327,9 +3335,9 @@ section {
 /*Sedes SubSedes*/
 .card-item-subsedes-cig {
   width: 270px;
-  background-color: #0f54b0 !important;
+  background-color: #0067AA !important;
   border-radius: 25px;
-  box-shadow: 0px 0 25px 0 #0f54b052;
+  box-shadow: 0px 0 25px 0 #0067AA52;
   height: 200px;
   text-align: center;
   padding: 50px 0px;
@@ -3337,7 +3345,7 @@ section {
 
 .card-item-subsedes-cig a {
   margin-top: 50%;
-  color: #e4b500;
+  color: #E0B445;
   font-size: 25px;
 }
 
@@ -3357,7 +3365,7 @@ section {
 
 /* Fondos */
 .fondoamarillo {
-  background-color: #e4b500;
+  background-color: #E0B445;
 }
 
 /* Tabla de pago en linea */
@@ -3380,14 +3388,14 @@ td {
 }
 
 thead {
-  background-color: #0f54b0;
-  border-bottom: solid 5px #e4b500;
+  background-color: #0067AA;
+  border-bottom: solid 5px #E0B445;
   color: white;
 }
 
 .titulos-para-tablas {
   font-size: 100px;
-  color: #e4b500;
+  color: #E0B445;
   text-align: center;
 }
 
@@ -3437,7 +3445,7 @@ thead {
 /* Para fondo azul de galería */
 
 .fondoazul {
-  background-color: #0f54b0;
+  background-color: #0067AA;
 }
 
 /*--------------------------------------------------------------
@@ -3448,7 +3456,7 @@ thead {
 }
 
 .general-cig .section-title {
-  color: #0f54b0;
+  color: #0067AA;
 }
 
 .notices-relevantes-cig-img {
@@ -3479,6 +3487,7 @@ thead {
   width: 100%; 
   cursor: pointer;  
 }
+
 .zoom-cig {
   width: 100%; 
   cursor: pointer;  
@@ -3486,4 +3495,12 @@ thead {
 
 .zoom-cig:hover {
   transform: scale(1.4);
+}
+
+.img-cig-cal {
+  height: 235px !important;   
+}
+
+.a-cig-center {
+  line-height: 45px;
 }

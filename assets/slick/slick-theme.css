@@ -191,7 +191,7 @@
     text-align: center;
 
     opacity: .25;
-    color: #E4B500 !important;
+    color: #E0B445 !important;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -199,5 +199,5 @@
 .slick-dots li.slick-active button:before
 {
     opacity: .75;
-    color: #E4B500 !important;
+    color: #E0B445 !important;
 }
