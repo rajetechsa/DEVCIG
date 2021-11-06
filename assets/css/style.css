@@ -3545,7 +3545,12 @@ table i:hover {
 }
 
 .parrafo-cig{
-  margin-left: auto;
-  margin-right: auto;
+ 
   text-align: justify;
+}
+
+.texto-li{
+  margin-left: 55px;
+  text-align: left;
+  font-size: medium;
 }
