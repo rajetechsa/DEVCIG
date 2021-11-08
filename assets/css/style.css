@@ -3133,19 +3133,6 @@ section {
   margin-left: 4px;
 }
 
-/* para intercalar colores en MiembrosTribunalHonor.html */
-.diseño-tirbunaldehonor {
-  color: #fff;
-  background-color: #000F54;
-  font-size: medium;
-}
-
-.Separar-text {
-  margin-bottom: 25px;
-  font-size: larger;
-  text-align: justify;
-}
-
 /*--------------------------------------------------------------
 # Imagenes Video
 --------------------------------------------------------------*/
@@ -3237,8 +3224,7 @@ section {
 .gallery-title {
   position: absolute;
   bottom: 0;
-  color: white;
-  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 1));
+  color: white;  
   width: 100%;
   margin: 0;
   padding: 10px;
@@ -3248,12 +3234,6 @@ section {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.fondo {
-  /* background-color:#E0B445 ;*/
-  /* background-color:#000F54; */
-  background-color: #000;
 }
 
 /* Tamaño de las imagenes de los bancos*/
