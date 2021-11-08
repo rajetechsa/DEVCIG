@@ -3234,8 +3234,8 @@ section {
 
 /* Tamaño de las imagenes de los bancos*/
 .imagen-banco {
-  width: 750px;
-  text-align: left;
+  width: 500px;
+  margin-bottom: 10px;  
 }
 
 /* Para otro estilo de carrusel */
