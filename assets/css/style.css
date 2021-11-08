@@ -1938,31 +1938,27 @@ section {
   color: white;
 }
 
-.colorV1 {
-  color: #0e4361;
-}
-
-.colorV2 {
+.color-primary-cig {
   color: #000F54;
 }
 
-.colorV3 {
-  color: #000F54;
-}
-
-.colorV4 {
+.color-secondary-cig {
   color: #E0B445;
 }
 
-.colorV5 {
+.color-info-cig {
+  color: #0e4361;
+}
+
+.color-success-cig {
   color: #00e47a;
 }
 
-.colorV6 {
+.color-infolight-cig {
   color: #00d5e4;
 }
 
-.colorV7{
+.color-dark-cig{
   color: black;
 }
 /*--------------------------------------------------------------
@@ -3449,16 +3445,6 @@ thead {
   height: 200px;
 }
 
-/* PARA ORDENAR LAS CANTIDADES */
-.cantidades {
-  margin-left: 200px;
-  font-weight: bold;
-}
-
-.negrita-pequeña {
-  font-weight: bold;
-}
-
 .img-cig-orga {
   width: 100%; 
   cursor: pointer;  
@@ -3515,29 +3501,8 @@ table i:hover {
   transform: scale(1.1);
 }
 
-.negrita-cig{
-  justify-content: left;
-  margin-left: 40px;
-  font-weight: bold;
-}
-
-.subrayar{
-  text-decoration: underline;
-}
-
-.cantidades{
-  font-size:large;
-  margin-left: 200px;
-}
-
-.parrafo-cig{
-  text-align: justify;
-}
-
 .texto-li{
-  margin-left: 55px;
-  text-align: left;
-  font-size: medium;
+  margin-left: 55px;  
 }
 
 /*Tribula Honor Card*/
@@ -3557,4 +3522,23 @@ table i:hover {
 
 .card-item-tribunal-cig:hover {
   transform: scale(1.1);
+}
+
+/*Formato de Iconos CIG*/
+.icon-cig i {
+  font-size: 20px;
+  color: #fff;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #000F54;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon-cig i:hover {
+  background: #E0B445;  
 }
