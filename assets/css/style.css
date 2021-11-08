@@ -3469,16 +3469,6 @@ thead {
   height: 200px;
 }
 
-/* PARA PONER EL TEXTO EN COLOR AZUL  */
-.color-text {
-  color: #0016b0;
-}
-
-/* PARA JUSTIFICAR PARRAFOS */
-.justificar-parrafo {
-  text-align: justify;
-}
-
 /* PARA ORDENAR LAS CANTIDADES */
 .cantidades {
   margin-left: 200px;
@@ -3568,4 +3558,23 @@ table i:hover {
   margin-left: 55px;
   text-align: left;
   font-size: medium;
+}
+
+/*Tribula Honor Card*/
+.card-item-tribunal-cig {
+  background-color: #000F54 !important;
+  border-radius: 25px;
+  box-shadow: 0px 0 25px 0 #000F5452;
+  height: 55px;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.card-item-tribunal-cig a {
+  color: #E0B445;
+  font-size: 25px;
+}
+
+.card-item-tribunal-cig:hover {
+  transform: scale(1.1);
 }
