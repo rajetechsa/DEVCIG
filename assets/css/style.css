@@ -3528,3 +3528,13 @@ table i:hover {
 .img-cig-cal-dir {
   height: 247px !important;    
 }
+
+.img-logo-comisiones {
+  width: 98%;
+  border-radius: 25px;
+  box-shadow: 0px 0 25px 0 #000F5452;
+}
+
+.img-logo-comisiones:hover {
+  transform: scale(1.1);
+}
