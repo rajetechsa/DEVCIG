@@ -1962,6 +1962,9 @@ section {
   color: #00d5e4;
 }
 
+.colorV7{
+  color: black;
+}
 /*--------------------------------------------------------------
 # Button
 --------------------------------------------------------------*/
@@ -2829,6 +2832,7 @@ section {
 
 .separar-li {
   margin-top: 20px;
+
 }
 
 /* Prueba para separar los nombres en la pagina Intengrantes*/
@@ -3177,8 +3181,10 @@ section {
 
 .Separar-li {
   margin-bottom: 25px;
-  font-size: larger;
+  font-size: large;
   text-align: justify;
+  margin-left: 80px;
+  margin-right: 710px;
 }
 
 .negrita {
@@ -3537,4 +3543,29 @@ table i:hover {
 
 .img-logo-comisiones:hover {
   transform: scale(1.1);
+}
+
+.negrita-cig{
+  justify-content: left;
+  margin-left: 40px;
+  font-weight: bold;
+}
+
+.subrayar{
+  text-decoration: underline;
+}
+
+.cantidades{
+  font-size:large;
+  margin-left: 200px;
+}
+
+.parrafo-cig{
+  text-align: justify;
+}
+
+.texto-li{
+  margin-left: 55px;
+  text-align: left;
+  font-size: medium;
 }
