@@ -34,6 +34,11 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -1482,6 +1487,21 @@ section {
   width: 100%;
   background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 992px) {
+  .contact .row {
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+  }
+
+  .contact .info{
+    padding: 0px !important;
+  }
+
+  .card-item-tribunal-cig p{
+    font-size: 18px;
+  }
 }
 
 .contact .info i {
@@ -3335,6 +3355,14 @@ section {
   padding: 50px 0px;
 }
 
+.card-item-subsedes-white-cig {
+  width: 270px;
+  background-color: white !important;
+  border-radius: 25px;
+  height: 200px;
+  padding: 50px 0px;
+}
+
 .card-item-subsedes-cig a {
   margin-top: 50%;
   color: #E0B445;
@@ -3347,6 +3375,12 @@ section {
 
 .card-item-subsedes-cig:hover {
   transform: scale(1.1);
+}
+
+@media (max-width: 992px) {
+  .row .col-12 .card-item-subsedes-cig:not([srcset]) {
+    width: auto;
+  }
 }
 
 /* Para las esquelas del carrusel. */
