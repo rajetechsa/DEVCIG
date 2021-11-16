@@ -3650,3 +3650,13 @@ table i:hover {
   }
 }
 
+/*Marca Agua*/
+.img-marca-agua-cig {
+  background-image: url("../../assets/img/banner/fondomarcaagua.jpeg");
+  width: 100%;
+  height: 750px;
+  opacity: 0.8 !important;
+  color: white;  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
