@@ -3657,6 +3657,6 @@ table i:hover {
   height: 750px;
   opacity: 0.8 !important;
   color: white;  
-  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
